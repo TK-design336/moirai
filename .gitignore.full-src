@@ -1,0 +1,31 @@
+# Full-source .gitignore (for future open-source release).
+# To switch: copy this file to .gitignore and remove the public-only block.
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 同梱 ASR/VAD バイナリ（README の手順で配置。リポジトリに載せる場合は以下を外す）
+src-tauri/resources/models/silero_vad_v6/*.onnx
+src-tauri/resources/models/sherpa-onnx-zipformer-ja-reazonspeech-2024-08-01/

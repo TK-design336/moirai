@@ -1,0 +1,7 @@
+# Public-only repository: README and assets/ are published; all other files stay local.
+/*
+!/.gitignore
+!/.gitignore.full-src
+!/README.md
+!/assets/
+!/assets/**
